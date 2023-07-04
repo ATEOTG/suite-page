@@ -7,3 +7,14 @@
 .border-1 {
   border-width: 1px;
 }
+
+.translate-y--28 {
+  transform: translateY(-12rem);
+}
+.translate-y--1 {
+  transform: translateY(-2rem);
+}
+
+.radial-violet {
+  background: radial-gradient(#a060ff0c, #17233967);
+}
