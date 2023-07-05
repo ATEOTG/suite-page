@@ -23,4 +23,15 @@
   .radial-violet-tablet {
     background: radial-gradient(#a060ff18, #17233967) !important;
   }
+
+  .w-text-tablet {
+    width: 573px;
+  }
+
+  .w-tablet {
+    width: 281px;
+  }
+  .h-tablet {
+    height: 482px;
+  }
 }
