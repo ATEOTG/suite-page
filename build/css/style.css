@@ -765,6 +765,12 @@ video {
   background: radial-gradient(#a060ff0c, #17233967);
 }
 
+@responsive {
+  .radial-violet-tablet {
+    background: radial-gradient(#a060ff18, #17233967) !important;
+  }
+}
+
 .hover\:bg-neutral-100:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(23 35 57 / var(--tw-bg-opacity));
@@ -795,6 +801,30 @@ video {
     margin-right: auto;
   }
 
+  .sm\:mb-8{
+    margin-bottom: 2rem;
+  }
+
+  .sm\:mb-24{
+    margin-bottom: 6rem;
+  }
+
+  .sm\:mb-64{
+    margin-bottom: 16rem;
+  }
+
+  .sm\:mb-96{
+    margin-bottom: 24rem;
+  }
+
+  .sm\:mb-72{
+    margin-bottom: 18rem;
+  }
+
+  .sm\:mb-80{
+    margin-bottom: 20rem;
+  }
+
   .sm\:w-11\/12{
     width: 91.666667%;
   }
@@ -805,6 +835,10 @@ video {
 
   .sm\:justify-between{
     justify-content: space-between;
+  }
+
+  .sm\:gap-2{
+    gap: 0.5rem;
   }
 
   .sm\:radial-violet-tablet {
