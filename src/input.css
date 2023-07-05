@@ -24,6 +24,18 @@
     background: radial-gradient(#a060ff18, #17233967) !important;
   }
 
+  .h-footer-section {
+    height: 516px;
+  }
+
+  .w-footer-section {
+    min-width: 999px;
+  }
+
+  .translate-y--img {
+    transform: translateY(-11.6rem);
+  }
+
   .w-text-tablet {
     width: 573px;
   }

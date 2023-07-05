@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link type="icon" type="image/png" href="./assets/favicon.png" />
   </head>
-  <body class="bg-neutral-400 box-border font-main">
+  <body class="bg-neutral-400 box-border font-main flex flex-col">
     <nav
       class="flex justify-between items-center mt-6 mb-20 w-11/12 mx-auto xl:w-9/12 xl:mt-12"
     >
@@ -104,11 +104,11 @@
         </section>
       </div>
     </main>
-    <footer class="bg-neutral-300 pb-16">
+    <footer class="bg-neutral-300 pb-20">
       <div
-        class="bg-neutral-100 text-neutral-400 flex flex-col items-center gap-12 rounded-3xl mb-12 pb-14 translate-y--1 sm:w-11/12 sm:mx-auto xl:w-9/12"
+        class="bg-neutral-100 text-neutral-400 flex flex-col items-center gap-12 rounded-3xl mb-12 pb-14 translate-y--1 sm:w-11/12 sm:mx-auto xl:w-9/12 xl:p-28 xl:h-footer-section xl:w-footer-section"
       >
-        <div class="flex flex-col items-center gap-10">
+        <div class="flex flex-col items-center gap-10 xl:hidden">
           <div
             class="h-56 relative radial-violet bg-neutral-100 rounded-full md:radial-violet-tablet"
           >
@@ -124,7 +124,7 @@
             It just <span class="font-bold">works.</span>
           </h2>
         </div>
-        <div class="text-lg mx-auto w-11/12">
+        <div class="text-lg mx-auto w-11/12 xl:hidden">
           <p class="text-center mb-8">
             "I really like how it is an all-in-one solution that handle many of
             the tasks that you would normally need seperate tools to do the same
@@ -136,7 +136,41 @@
             <p class="uppercase tracking-widest">Cmo, fylo</p>
           </div>
         </div>
+        <div class="hidden xl:flex xl:items-start xl:gap-12 relative">
+          <div class="flex flex-col items-center gap-10">
+            <div
+              class="h-56 radial-violet bg-neutral-100 rounded-full md:radial-violet-tablet w-96"
+            >
+              <img
+                class="max-w-none translate-y--img"
+                src="./assets/image-jeremy-large.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <img
+            class="translate-y-12"
+            src="assets/pattern-curved-line-2.svg"
+            alt=""
+          />
+          <div class="text-lg mx-auto w-11/12 flex flex-col items-start gap-7">
+            <h2 class="text-4xl">
+              It just <span class="font-bold">works.</span>
+            </h2>
+            <p>
+              "I really like how it is an all-in-one solution that handle many
+              of the tasks that you would normally need seperate tools to do the
+              same job. This thing is a miracle worker."
+            </p>
+
+            <div>
+              <p class="uppercase font-bold">Jeremy Robinson</p>
+              <p class="uppercase tracking-widest">Cmo, fylo</p>
+            </div>
+          </div>
+        </div>
       </div>
+
       <div
         class="flex flex-col items-center gap-10 md:flex-row md:justify-between md:w-11/12 md:mx-auto xl:w-9/12"
       >
