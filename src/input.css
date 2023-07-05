@@ -18,3 +18,9 @@
 .radial-violet {
   background: radial-gradient(#a060ff0c, #17233967);
 }
+
+@responsive {
+  .radial-violet-tablet {
+    background: radial-gradient(#a060ff18, #17233967) !important;
+  }
+}
