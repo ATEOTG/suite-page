@@ -28,8 +28,20 @@
     width: 573px;
   }
 
+  .w-text-desktop {
+    width: 655px;
+  }
+
   .w-tablet {
     width: 281px;
+  }
+
+  .w-desktop {
+    width: 350px;
+  }
+
+  .h-desktop {
+    height: 600px;
   }
   .h-tablet {
     height: 482px;
