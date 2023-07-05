@@ -23,6 +23,11 @@
 ![Screen Shot 2023-07-04 at 23 51 47](https://github.com/ATEOTG/suite-page/assets/25332391/ff8d5114-de8a-41b2-ac61-b55a8c102f34)
 
 
+## Desktop
+
+![Screen Shot 2023-07-05 at 15 08 38](https://github.com/ATEOTG/suite-page/assets/25332391/f00da971-cf62-4702-9faf-cb8c8bb5b044)
+
+
 ### Links
 
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
