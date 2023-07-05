@@ -593,14 +593,6 @@ video {
   height: 2rem;
 }
 
-.h-full{
-  height: 100%;
-}
-
-.h-screen{
-  height: 100vh;
-}
-
 .w-11\/12{
   width: 91.666667%;
 }
@@ -718,10 +710,6 @@ video {
   padding-bottom: 3.5rem;
 }
 
-.pb-16{
-  padding-bottom: 4rem;
-}
-
 .pb-20{
   padding-bottom: 5rem;
 }
@@ -800,48 +788,6 @@ video {
 
 .radial-violet {
   background: radial-gradient(#a060ff0c, #17233967);
-}
-
-@responsive {
-  .radial-violet-tablet {
-    background: radial-gradient(#a060ff18, #17233967) !important;
-  }
-
-  .h-footer-section {
-    height: 516px;
-  }
-
-  .w-footer-section {
-    min-width: 999px;
-  }
-
-  .translate-y--img {
-    transform: translateY(-11.6rem);
-  }
-
-  .w-text-tablet {
-    width: 573px;
-  }
-
-  .w-text-desktop {
-    width: 655px;
-  }
-
-  .w-tablet {
-    width: 281px;
-  }
-
-  .w-desktop {
-    width: 350px;
-  }
-
-  .h-desktop {
-    height: 600px;
-  }
-
-  .h-tablet {
-    height: 482px;
-  }
 }
 
 .hover\:bg-neutral-100:hover{
